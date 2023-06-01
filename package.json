@@ -1,13 +1,16 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "main": "server.js",
   "scripts": {
-    "start": "node server",
+    "dev": "vercel dev",
+    "start": "vercel start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "vercel": {
+    "includes": [
+      "db/db.json"
+    ]
+  },
   "dependencies": {
     "express": "^4.17.2",
     "fs": "^0.0.1-security",
@@ -16,5 +19,6 @@
     "uuidv1": "^1.6.14"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "license": "ISC"
 }
