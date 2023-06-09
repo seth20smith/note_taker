@@ -25,3 +25,5 @@ THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+
+![Screen Shot 2021-12-17 at 7 53 36 PM copy](https://github.com/seth20smith/note_taker/assets/91171134/8e51b5c5-a22b-48c6-aaf5-5fbaa197a819)
